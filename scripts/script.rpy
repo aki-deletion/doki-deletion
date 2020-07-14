@@ -32,3 +32,55 @@ label start:
     mc "Okay..."
     mc "Bye."
     "I leave the room and head home."
+    
+    scene black
+    with dissolve
+    "???" "Hello, [player]."
+    "???" "This is the author here, and I'm just here to explain a few things."
+    show monika 5a
+    "Author" "See Monika?"
+    "Author" "You're going to be playing as her now."
+    "Author" "Why, you ask?"
+    "Author" "Hah, you'll see."
+    "Author" "That's all I needed to tell you for now."
+    "Author" "This is the author signing out."
+    
+    scene residential_day
+    with wipeleft_scene
+    play music t2
+    $ mc_name = "Monika"
+    $ m_name = "Author"
+    "I sigh, thinking."
+    "Why is life so normal?"
+    "Yet even still, everything is so stressful."
+    "But..."
+    mc "It's boring."
+    mc "Why can't it change for once?!"
+    show screen tear(20, 0.1, 0.1, 0, 40)
+    play sound "sfx/s_kill_glitch1.ogg"
+    pause 0.25
+    hide screen tear
+    
+    scene mon_house_bedroom
+    with wipeleft_scene
+    play music t10
+    mc "Ah, home at last."
+    "I flop down onto my bed."
+    "It's so comfy..."
+    "Ah, I could just stay like this forever..."
+    mc "That sounds nice..."
+    "No school, no club... No stress."
+    "That'd be perfect."
+    mc "{i}Sigh...{/i}"
+    play sound knock
+    stop music
+    mc "...Huh?"
+    "That's odd."
+    "It must be at least 5pm..."
+    "Who would be knocking at this time?"
+    
+    scene black
+    play sound "sfx/closet_open.ogg"
+    mc "WHAT THE?!"
+    play sound "sfx/giggle.ogg"
+    play sound scream
