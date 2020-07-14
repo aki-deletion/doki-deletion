@@ -130,6 +130,8 @@ define audio.closet_open = "sfx/closet-open.ogg"
 define audio.closet_close = "sfx/closet-close.ogg"
 define audio.page_turn = "sfx/pageflip.ogg"
 define audio.fall = "sfx/fall.ogg"
+define audio.scream = "mod_assets/bgm/scream.mp3"
+define audio.knock = "mod_assets/bgm/knock1.mp3"
 
 # Backgrounds
 image black = "#000000"
