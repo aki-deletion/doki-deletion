@@ -588,4 +588,17 @@ label start:
     show screen tear(20, 0.1, 0.1, 0, 40)
     pause 30.0
     hide screen tear
-return
+    
+    scene mon_house_bedroom
+    play music t2
+    m "Mm..."
+    m "Glad to be home at last."
+    "I flop down onto the bed, exhausted."
+    m "Maybe a little nap won't hurt ..."
+    
+    window hide
+    scene black
+    stop music
+    return
+
+
